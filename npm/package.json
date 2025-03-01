@@ -491,13 +491,14 @@
     "node": ">=22"
   },
   "type": "module",
-  "dependencies": {},
+  "dependencies": {
+    "@bearz/chars": "^0.1.0"
+  },
   "devDependencies": {
     "picocolors": "^1.0.0",
     "@types/node": "^22.13.4",
     "@bearz/testing": "^0.0.0",
-    "@bearz/assert": "^0.1.0",
-    "@bearz/chars": "^0.1.0"
+    "@bearz/assert": "^0.1.0"
   },
   "_generatedBy": "dnt@dev"
 }

@@ -38,12 +38,13 @@ for (const key of Object.keys(denoJson.exports)) {
     }
 }
 
-const deps: Record<string, string> = {};
+const deps: Record<string, string> = {
+    "@bearz/chars": "^0.1.0",
+};
 const devDeps: Record<string, string> = {
     "@types/node": "^22.13.4",
     "@bearz/testing": "^0.0.0",
     "@bearz/assert": "^0.1.0",
-    "@bearz/chars": "^0.1.0",
 };
 
 await build({
